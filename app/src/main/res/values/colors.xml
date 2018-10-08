@@ -5,4 +5,5 @@
     <color name="colorAccent">#D81B60</color>
     <color name="micro_text_light">#434343</color>
     <color name="cl_white">#FFF</color>
+    <color name="gray">#808080</color>
 </resources>

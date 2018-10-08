@@ -38,4 +38,8 @@ public class RetrofitResponseCalls implements Callback {
         Call<ResponseParser<ArrayList<ResultsItem>>> call = RestClient.getApi().getArticlesList();
         call.enqueue(this);
     }
+
+    public Call<ResponseParser<ArrayList<ResultsItem>>> getTextArticles() {
+        return RestClient.getApi().getTestArticle();
+    }
 }
